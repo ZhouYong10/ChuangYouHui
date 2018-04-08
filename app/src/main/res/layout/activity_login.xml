@@ -60,6 +60,7 @@
                     android:background="@drawable/login_edit_selectorl"/>
             </LinearLayout>
             <Button
+                android:id="@+id/log_in"
                 android:layout_width="160dp"
                 android:layout_height="32dp"
                 android:text="登陆"
