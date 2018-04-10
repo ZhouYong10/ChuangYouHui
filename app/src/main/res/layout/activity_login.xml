@@ -17,47 +17,44 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-            android:layout_marginTop="50dp">
+            android:layout_marginTop="66dp">
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="32dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/login_edit_bg">
+                android:layout_marginBottom="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:paddingLeft="18dp"
                     android:paddingRight="18dp"
-                    android:background="@drawable/login_radius_bg"
+                    android:background="@drawable/login_textview_radius_bg"
                     android:text="账号"
                     android:textColor="#fff"/>
                 <EditText
                     android:layout_width="160dp"
                     android:layout_height="32dp"
                     android:paddingLeft="6dp"
-                    android:background="@drawable/login_edit_selectorl"/>
+                    android:background="@drawable/login_edit_selector"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="32dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/login_edit_bg">
+                android:layout_marginBottom="10dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:paddingLeft="18dp"
                     android:paddingRight="18dp"
-                    android:background="@drawable/login_radius_bg"
+                    android:background="@drawable/login_textview_radius_bg"
                     android:text="密码"
                     android:textColor="#fff"/>
                 <EditText
                     android:layout_width="160dp"
                     android:layout_height="32dp"
                     android:paddingLeft="6dp"
-                    android:background="@drawable/login_edit_selectorl"/>
+                    android:background="@drawable/login_edit_selector" />
             </LinearLayout>
             <Button
                 android:id="@+id/log_in"
@@ -66,12 +63,13 @@
                 android:text="登陆"
                 android:textSize="16sp"
                 android:textColor="#fff"
-                android:background="@drawable/login_radius_bg"/>
+                android:background="@drawable/btn_radius_bg"/>
             <RelativeLayout
                 android:layout_width="140dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp">
                 <TextView
+                    android:id="@+id/log_up"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
